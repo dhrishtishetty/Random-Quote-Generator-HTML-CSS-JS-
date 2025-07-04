@@ -10,8 +10,6 @@ var arr = ["Try not to resist the changes that come your way. Instead, let life 
     "Not everything that is faced can be changed, but nothing can be changed until it is faced."
 ];
 
-
-
 function func() {
         var randomNumber = Math.floor(Math.random() * arr.length);
         document.getElementById("para").innerHTML = arr[randomNumber];
